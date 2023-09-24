@@ -94,9 +94,6 @@ function App() {
         <h4>
           Time: {hours} : {minutes} : {seconds}
         </h4>
-
-        <h1>Play Audio Example</h1>
-        <button onClick={playAudio}>Play Audio</button>
         <audio ref={audioRef} src={audioFile} />
         <audio ref={lowaudioRef} src={lowaudioFile} />
       </div>
